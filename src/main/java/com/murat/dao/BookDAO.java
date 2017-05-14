@@ -27,7 +27,6 @@ public class BookDAO {
                 e.printStackTrace();
                 throw new SQLException();
             }
-//            DriverManager.registerDriver(new com.mysql.jdbc.Driver());
             jdbcConnection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
         }
     }

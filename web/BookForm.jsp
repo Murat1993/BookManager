@@ -6,19 +6,19 @@
 <center>
     <h1>Books Management</h1>
     <h2>
-        <a href="/JavaEEHelloWorld_war_exploded/new">Add New Book</a>
+        <a href="new">Add New Book</a>
         &nbsp;&nbsp;&nbsp;
-        <a href="/JavaEEHelloWorld_war_exploded/list">List All Books</a>
+        <a href="list">List All Books</a>
 
     </h2>
 </center>
 <div align="center">
     <if test="${book != null}">
-        <form action="/JavaEEHelloWorld_war_exploded/update" method="post">
+        <form action="update" method="post">
     </if>
 
     <if test="${book == null}">
-        <form action="/JavaEEHelloWorld_war_exploded/insert" method="post">
+        <form action="insert" method="post">
     </if>
     <table border="1" cellpadding="5">
         <caption>
